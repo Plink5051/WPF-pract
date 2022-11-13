@@ -1,0 +1,6 @@
+E:\ProektVS2\Practice9Library\Library_Practice9\bin\Debug\Library_Practice9.dll
+E:\ProektVS2\Practice9Library\Library_Practice9\bin\Debug\Library_Practice9.pdb
+E:\ProektVS2\Practice9Library\Library_Practice9\obj\Debug\Library_Practice9.csproj.AssemblyReference.cache
+E:\ProektVS2\Practice9Library\Library_Practice9\obj\Debug\Library_Practice9.csproj.CoreCompileInputs.cache
+E:\ProektVS2\Practice9Library\Library_Practice9\obj\Debug\Library_Practice9.dll
+E:\ProektVS2\Practice9Library\Library_Practice9\obj\Debug\Library_Practice9.pdb

@@ -1,0 +1,36 @@
+﻿<Window x:Class="FrameWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrameWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="600" FontSize="11" Background="MediumPurple" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Button x:Name="PictureButton" Content="Отобразить картинку" Margin="10" Background="PeachPuff" Click="PictureButton_Click"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Button x:Name="OpenWindowButton" Content="Открыть окно" Margin="10" Background="PeachPuff" Click="OpenWindowButton_Click"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Button x:Name="RoundButton" Content="Закруглить" Margin="10" Background="PeachPuff" Click="RoundButton_Click"/>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Frame x:Name="PictureFrame" Margin="15" Background="PeachPuff" NavigationUIVisibility="Hidden"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

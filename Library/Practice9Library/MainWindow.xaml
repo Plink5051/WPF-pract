@@ -1,0 +1,40 @@
+﻿<Window x:Class="Practice9Library.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practice9Library"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+            <TextBlock Margin="175,50,50,50" Text="a:" FontSize="24"/>
+        <Grid Grid.Column="1">
+            <TextBox Margin="50" Name="a"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock Margin="175,50,50,50" Text="b:" FontSize="24"/>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <TextBox Margin="50" Name="b"/>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Button Margin="50" Content="Вычислить" Click="Button_Click"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <TextBlock Margin="85,50,50,50" Text="Результат:" FontSize="24"/>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="1">
+            <TextBlock Margin="50" Name="res"/>
+        </Grid>
+    </Grid>
+</Window>

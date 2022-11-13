@@ -1,0 +1,9 @@
+E:\ProektVS2\SomeApp\SomeApp\bin\Debug\SomeApp.exe.config
+E:\ProektVS2\SomeApp\SomeApp\bin\Debug\SomeApp.exe
+E:\ProektVS2\SomeApp\SomeApp\bin\Debug\SomeApp.pdb
+E:\ProektVS2\SomeApp\SomeApp\obj\Debug\SomeApp.csproj.AssemblyReference.cache
+E:\ProektVS2\SomeApp\SomeApp\obj\Debug\SomeApp.Properties.Resources.resources
+E:\ProektVS2\SomeApp\SomeApp\obj\Debug\SomeApp.csproj.GenerateResource.cache
+E:\ProektVS2\SomeApp\SomeApp\obj\Debug\SomeApp.csproj.CoreCompileInputs.cache
+E:\ProektVS2\SomeApp\SomeApp\obj\Debug\SomeApp.exe
+E:\ProektVS2\SomeApp\SomeApp\obj\Debug\SomeApp.pdb
